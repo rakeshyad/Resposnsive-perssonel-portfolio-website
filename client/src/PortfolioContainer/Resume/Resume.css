@@ -195,12 +195,38 @@
 
 /* IPAD PRO RESPONSIVENESS */
 @media only screen and (max-width: 1110px) {
+  .resume-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bullets {
+    width: 90%;
+  }
+
   .resume-card {
-    width: 880px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+    align-items: center;
+    width: 90%;
   }
 
   .resume-bullet-details {
-    padding: 0 0 0 70px;
+    height: 360px;
+    padding: 0;
+    width: fit-content;
+  }
+
+  .resume-bullets {
+    margin: 30px 0;
+    width: 100%;
+  }
+
+  .selected-bullet {
+    width: 100%;
   }
 }
 
@@ -238,5 +264,97 @@
 
   .selected-bullet {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .resume-content {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: xx-small;
+  }
+
+  .bullets {
+    width: 80%;
+  }
+
+  .resume-card {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+    align-items: center;
+    width: 90%;
+  }
+
+  .resume-bullet-details {
+    font-size: xx-small;
+    height: 360px;
+    padding: 0;
+    width: fit-content;
+  }
+
+  .resume-bullets {
+    margin: 2px 0;
+    width: 100%;
+  }
+  .programming-skills-container {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .resume-screen-container {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 360px;
+    width: 100%;
+  }
+  .heading-bullet {
+    position: absolute;
+    left: -30px;
+    height: 15px;
+    width: 15px;
+    top: 5px;
+    border-radius: 50%;
+    background-color: #ff5823;
+  }
+  
+  .resume-sub-heading {
+    font-size: 8px;
+    font-family: "Poppins SemiBold";
+    color: var(--black);
+    margin: 10px 0 0 0;
+  }
+  
+  .resume-heading-description {
+    font-size: 6.5px;
+    text-align: justify;
+  }
+  
+  .heading-date {
+    background-color: #ff5823;
+    padding: 0px 25px 9px;
+    height: fit-content;
+    font-size: 11px;
+    text-align: center;
+    border-radius: 5px;
+    color: var(--white);
+  }
+  .resume-main-heading span {
+    color: var(--dark-orange);
+    font-size: 12px;
+    font-family: "Poppins SemiBold";
+  }
+ 
+
+  .selected-bullet {
+    width: 90%;
   }
 }

@@ -70,7 +70,7 @@ export default function ContactMe(props) {
       <div className="central-form">
         <div className="col">
           <h2 className="title">
-            <Typical loop={Infinity} steps={["Get In Touch 🤝", 1000,"Write your Message 💬 ", 1000,"Email me 📧", 1000]} />
+            <Typical loop={Infinity} steps={["Get In Touch Email me 📧", 1000,]} />
           </h2>{" "}
           <a href="https://www.linkedin.com/in/rakesh-yadav-153442225/">
                 <i className="fa fa-linkedin-square"></i>
