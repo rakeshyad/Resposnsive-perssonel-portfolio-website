@@ -51,8 +51,8 @@
   justify-content: center;
   box-shadow: 0 1px 0px 0px var(--white);
   border-radius: 50%;
-  height: 320px;
-  width: 320px;
+  height: 360px;
+  width: 360px;
   margin: 0 0px 0 100px;
 }
 .profile-picture-background {

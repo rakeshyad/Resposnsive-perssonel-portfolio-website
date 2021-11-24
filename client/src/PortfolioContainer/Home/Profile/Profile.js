@@ -50,9 +50,7 @@ export default function Profile() {
                 />
               </h1>
               <span className="porfile-role-tagline">
-                Knack of Machine Learning model building and 
-                Web devlopment
-                appilications with Front and back end operations
+                <h3><i>"Fun is just another word of Learning"</i></h3>
               </span>
             </span>
           </div>

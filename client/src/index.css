@@ -133,3 +133,15 @@ body ::-webkit-scrollbar-thumb {
   transform: translateY(80px);
   transition: all 0.8s ease;
 }
+
+.copyright h3 {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  font-size: 15px;
+  position: relative;
+  color: rgba(132, 147, 151, 0.96);
+  top: 360px;
+  text-align: center;
+
+}
