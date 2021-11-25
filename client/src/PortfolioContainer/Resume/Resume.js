@@ -130,7 +130,7 @@ const Resume = (props) => {
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            Previously worked in two reputed Companies EXL outsourcing (US Client) and ID-MEDICAL(UK clients), part of query team use to resolve Payment queries, Bank Setup Queries, Timesheets/Invoice queries, remittance,Worked closely with clients to maintain optimum levels of communication to effectively and efficiently complete projects.
+            Previously worked for two reputeted Companies EXL outsourcing (US client) and ID-MEDICAL(UK client),as a  part of query team use to resolve Payment queries, Bank Setup Queries, Timesheets/Invoice queries, Accural Reports , remittance,Worked closely with clients to maintain optimum levels of communication to effectively and efficiently complete projects.
             <b>Data Science</b> Intership at Technocolabs pvt Ltd (4-months).
             Build 3 ML based Web API's.{" "}
             <a href="https://msbriskpredictor.herokuapp.com/">Freddie Mac Mortgage Loan Risk Prediction </a>,
