@@ -40,7 +40,7 @@ export default function Profile() {
                   steps={[
                     "Aspiring Data Scientist ",
                     1000,
-                    "Proficient in ML/DL Modleing  ",
+                    "Proficient in ML/DL Modeling  ",
                     1000,
                     "Financial Analyst-P2P-O2C-Payroll ",
                     1000,
